@@ -1,0 +1,217 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/coffee",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero_image.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "453cc210-a16b-4a01-b5af-83d48a73e4b8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"banerLetrero\">\n<div class=\"subHeaderCont\">\n<h2 class=\"subHeader2\">\nIF YOU'RE NOT ANGRY, YOU'RE NOT AWAKE\n<\/h2>\n<\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "OUR COFFEES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "july-august",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "b06a75eb-081c-4d19-a81f-cdbdf7a0ed24": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_01_image2_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "3f5d3f26-8ff5-4e7b-88b4-cb99b9f4dcdf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-player@latest\/dist\/lottie-player.js\"><\/script>\n\n<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-interactivity@latest\/dist\/lottie-interactivity.min.js\"><\/script>\n\n<lottie-player id=\"twelfthLottie\" src=\"https:\/\/lottie.host\/67c6ef6b-3589-4129-81cc-21e79a5a2dc2\/ZOXrm7MYh3.json\"  background=\"transparent\"  speed=\"1\"  style=\"width: 100%; height: 100%;\"  loop  ><\/lottie-player>\n\n <script>\n  LottieInteractivity.create({\n      player:'#twelfthLottie',\n      mode:\"scroll\",\n      actions: [\n          {\n          visibility: [0, 1.0],\n          type: \"play\"\n          }\n      ]\n  });\n  <\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "fb73ae57-a678-471d-b4f4-29d3175b0723": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16044239814815__fb73ae57-a678-471d-b4f4-29d3175b0723-1675322064d7e5d332-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The purpose of the Angry Roaster is to bridge the gap between the specialty coffee industry and the everyday coffee consumer. We believe that coffee, because of its diversity in people, place, and technique – has the uncanny ability to express itself in different ways, for different palettes.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16044239814815__fb73ae57-a678-471d-b4f4-29d3175b0723-1675322064d7e5d332-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE ABOUT US",
+            "button_link": "shopify:\/\/pages\/about"
+          }
+        }
+      },
+      "block_order": [
+        "template--16044239814815__fb73ae57-a678-471d-b4f4-29d3175b0723-1675322064d7e5d332-1",
+        "template--16044239814815__fb73ae57-a678-471d-b4f4-29d3175b0723-1675322064d7e5d332-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/230222_hero_transp.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c58e56cf-0b3a-4491-8234-d38e270ee037": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"merch-home\">\n<div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin\">\n        <h2 class=\"title h2\">\n          MAKE IT ANGRY\n        <\/h2><\/div>\n<div class=\"merch-1\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0483\/9115\/9967\/files\/240201_SectionMerch.png?v=1706813781&width=1420\">\n<\/div>\n<div class=\"center\"><a class=\"button button--primary\" role=\"link\" href=\"https:\/\/theangryroaster.com\/collections\/merch\">\n          BUY MERCH\n        <\/a><\/div>\n\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "14ab2552-e18a-4384-bcc6-390882dbcaa4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16044239814815__14ab2552-e18a-4384-bcc6-390882dbcaa4-1675323099bc8a413b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/240201_SectionMerch.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16044239814815__14ab2552-e18a-4384-bcc6-390882dbcaa4-1675323099bc8a413b-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "MAKE IT ANGRY",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "BUY MERCH",
+        "button_link": "shopify:\/\/collections\/merch",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1675327834b1c0c4ac": {
+      "type": "apps",
+      "blocks": {
+        "0f883cb7-e780-4206-b365-dcc1a684ae09": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "0f883cb7-e780-4206-b365-dcc1a684ae09"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "453cc210-a16b-4a01-b5af-83d48a73e4b8",
+    "featured_collection",
+    "b06a75eb-081c-4d19-a81f-cdbdf7a0ed24",
+    "3f5d3f26-8ff5-4e7b-88b4-cb99b9f4dcdf",
+    "fb73ae57-a678-471d-b4f4-29d3175b0723",
+    "c58e56cf-0b3a-4491-8234-d38e270ee037",
+    "14ab2552-e18a-4384-bcc6-390882dbcaa4",
+    "1675327834b1c0c4ac"
+  ]
+}
