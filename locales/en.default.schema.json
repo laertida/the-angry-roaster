@@ -2695,13 +2695,19 @@
           "name": "Slide",
           "settings": {
             "image": {
-              "label": "Image"
+              "label": "Banner Image"
+            },
+            "image-product" : {
+              "label": "Product Image"
             },
             "heading": {
               "label": "Heading"
             },
             "subheading": {
               "label": "Subheading"
+            },
+            "description": {
+              "label": "Description"
             },
             "button_label": {
               "label": "Button label",

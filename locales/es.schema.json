@@ -2674,13 +2674,19 @@
           "name": "Diapositiva",
           "settings": {
             "image": {
-              "label": "Imagen"
+              "label": "Imagen de banner"
+            },
+            "image-product": {
+              "label": "Imagen de producto"
             },
             "heading": {
               "label": "Título"
             },
             "subheading": {
               "label": "Subtítulo"
+            },
+            "description": {
+              "label": "Descripción"
             },
             "button_label": {
               "label": "Etiqueta de botón",

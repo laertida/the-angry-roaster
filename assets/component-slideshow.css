@@ -19,9 +19,57 @@ slideshow-component .slideshow.banner {
 
 .slideshow__slide {
   padding: 0;
-  position: relative;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.slideshow__slide .banner__media {
+  z-index: -1;
+}
+
+.slideshow__slide .banner__product {
+  z-index: 100;
+  max-width: 20%;
+  width: 20%;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.slideshow__slide .banner__heading {
+  color: white;
+  font-family: var(--font-heading-family);
+  font-style: var(--font-heading-style);
+  z-index: 100;
+}
+
+.slideshow__slide .banner__subheading {
+  color: white;
+  position: absolute;
+  z-index: 100;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  writing-mode: vertical-rl;
+  height: 100%;
+  left: 10%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.slideshow__slide .h1 {
+  font-size: 10rem;
+  text-align: center;
+}
+
+.slideshow__slide .banner__description {
+  color: white;
+  background-color: #ff70fe;
+  padding: 1rem;
+}
+.slideshow__slide .banner__box {
+  background-color: transparent;
 }
 
 @media screen and (max-width: 749px) {
