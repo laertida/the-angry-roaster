@@ -3,6 +3,13 @@ slideshow-component {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 749px) {
+  slideshow-component {
+    height: 60vw;
+  }
+}
+
+
 
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
@@ -26,23 +33,75 @@ slideshow-component .slideshow.banner {
 
 .slideshow__slide .banner__media {
   z-index: -1;
+  object-fit: contain;
 }
 
-.slideshow__slide .banner__product {
-  z-index: 100;
-  max-width: 20%;
-  width: 20%;
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
-}
 
 .slideshow__slide .banner__heading {
   color: white;
-  font-family: var(--font-heading-family);
-  font-style: var(--font-heading-style);
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
   z-index: 100;
+  top: -15%;
+  position: relative;
 }
+
+
+.slideshow__slide .h1 {
+  font-size: 12rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .slideshow__slide .banner__heading {
+    top: -10%;
+  }
+
+  .slideshow__slide .h1 {
+    font-size: 9rem;
+  }
+
+}
+
+@media screen and (max-width: 749px) {
+  .slideshow__slide .banner__heading {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .slideshow__slide .banner__heading img{
+
+  }
+  .slideshow__slide .h1 {
+    z-index: 200;
+    font-size: 5rem;
+    bottom: 50%;
+  }
+}
+
+
+.slideshow__slide .banner__product {
+  z-index: 100;
+  width: 35%;
+  height: auto;
+  position: absolute;
+  bottom: 15%;
+  right: -5%;
+}
+
+.slideshow__slide .banner__product img {
+  object-fit: contain;
+  width: 70%;
+  height: auto;
+}
+
+.slideshow__slide .media {
+  background-color: transparent;
+}
+
 
 .slideshow__slide .banner__subheading {
   color: white;
@@ -55,23 +114,99 @@ slideshow-component .slideshow.banner {
   left: 10%;
   text-align: center;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-.slideshow__slide .h1 {
-  font-size: 10rem;
-  text-align: center;
+@media screen and (max-width: 992px) {
+  .slideshow__slide .banner__subheading {
+    left: 5%;
+  }
 }
+
+
+@media screen and (max-width: 749px) {
+  .slideshow__slide .banner__subheading {
+    font-size: 1.5rem;
+    writing-mode: horizontal-tb;
+    left: 0;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    top: 40%;
+    height: auto;
+  }
+}
+
+
+
 
 .slideshow__slide .banner__description {
   color: white;
-  background-color: #ff70fe;
-  padding: 1rem;
-}
-.slideshow__slide .banner__box {
-  background-color: transparent;
+  background-color: #9D3BF2;
+  padding: 3rem;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  min-height: 16rem;
 }
 
+
+.slideshow__slide .banner__description span {
+  font-size: 2rem;
+  max-width: 20rem;
+  font-weight: 500;
+  width: 15rem;
+  max-height: 15rem;
+  text-wrap: wrap;
+  margin-left: 15%;
+  display: block;
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .slideshow__slide .banner__description span {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 10%;
+  }
+}
+
+.slideshow__slide .banner__box {
+  background-color: transparent;
+  bottom: -24%;
+}
+
+@media screen and (max-width: 992px) {
+  .slideshow__slide .banner__box {
+    bottom: -30%;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .slideshow__slide .banner__box {
+    top: -70%;
+  }
+}
+
+
+.banner__buttons .button {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  min-width: 25rem;
+}
+
+@media screen and (max-width: 992px) {
+  .banner__buttons .button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    min-width: 20rem;
+  }
+}
+
+/*
 @media screen and (max-width: 749px) {
   .slideshow--placeholder.banner--mobile-bottom.banner--adapt_image .slideshow__media,
   .slideshow--placeholder.banner--adapt_image:not(.banner--mobile-bottom) {
@@ -84,7 +219,7 @@ slideshow-component .slideshow.banner {
     height: 56rem;
   }
 }
-
+*/
 .slideshow__text.banner__box {
   display: flex;
   flex-direction: column;
@@ -95,6 +230,8 @@ slideshow-component .slideshow.banner {
 .slideshow__text > * {
   max-width: 100%;
 }
+
+
 
 @media screen and (max-width: 749px) {
   slideshow-component.page-width .slideshow__text {
@@ -154,12 +291,14 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__controls {
-  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  z-index: 200;
+  margin-top: -5%;
+
 }
 
 .slideshow__controls--top {
   order: 2;
-  z-index: 1;
+  z-index: 200;
 }
 
 @media screen and (max-width: 749px) {
