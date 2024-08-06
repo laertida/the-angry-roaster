@@ -9,42 +9,89 @@
 */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "slideshow_HPaqLz": {
+      "type": "slideshow",
       "blocks": {
-        "button": {
-          "type": "buttons",
+        "slide_ziFF4V": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/coffee",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/240717_Blueberrypie.png",
+            "image-product": "shopify:\/\/shop_images\/guatemala.png",
+            "heading": "GUATEMALA",
+            "heading_size": "h1",
+            "subheading": "IT REMINDS US OF A BLUEBERRY PIE",
+            "description": "Notes: BLUEBERIES, BROWN SUGAR & HONEY",
+            "button_label": "SHOP GUATEMALA",
+            "link": "shopify:\/\/products\/guatemala",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_WPCykh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/decaf-background.png",
+            "image-product": "shopify:\/\/shop_images\/decaf.png",
+            "heading": "DECAF",
+            "heading_size": "h1",
+            "subheading": "IT REMINDS US OF A CANDY CARAMEL APPLE",
+            "description": "Notes: CHERRIES, VANILLA & MIXED TROPICAL FRUITS",
+            "button_label": "SHOP DECAF",
+            "link": "shopify:\/\/products\/decaf-colombia",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VK6H3w": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/colombia.png",
+            "image-product": "shopify:\/\/shop_images\/colombia-bag.png",
+            "heading": "COLOMBIA",
+            "heading_size": "h1",
+            "subheading": "IT REMIDS US OF A FRESH BITE OF PINAPPLE",
+            "description": "Notes: LYCHEE, HIBISCUS & PINAPPLE",
+            "button_label": "SHOP COLOMBIA",
+            "link": "shopify:\/\/products\/colombia-caturra-cauca",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "button"
+        "slide_ziFF4V",
+        "slide_WPCykh",
+        "slide_VK6H3w"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero_image.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "453cc210-a16b-4a01-b5af-83d48a73e4b8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"banerLetrero\">\n<div class=\"subHeaderCont\">\n<h2 class=\"subHeader2\">\nIF YOU'RE NOT ANGRY, YOU'RE NOT AWAKE\n<\/h2>\n<\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"banerLetrero\" style=\"position: relative; z-index: 300;\">\n<div class=\"subHeaderCont\">\n<h2 class=\"subHeader2\">\nIF YOU'RE NOT ANGRY, YOU'RE NOT AWAKE\n<\/h2>\n<\/div>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -204,7 +251,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "slideshow_HPaqLz",
     "453cc210-a16b-4a01-b5af-83d48a73e4b8",
     "featured_collection",
     "b06a75eb-081c-4d19-a81f-cdbdf7a0ed24",
