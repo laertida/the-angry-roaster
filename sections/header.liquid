@@ -760,11 +760,16 @@
   items.forEach(item => {
     item.addEventListener("mouseover", () => {
       item.setAttribute("open", true);
+      console.log('OPENED');
       item.querySelector("ul").addEventListener("mouseleave", () => {
-        item.removeAttribute("open");
+        setTimeout(()=> {
+            item.removeAttribute("open");
+        }, 500)
       });
       item.addEventListener("mouseleave", () => {
-        item.removeAttribute("open");
+          setTimeout(()=> {
+              item.removeAttribute("open");
+          }, 500)
       });
     });
 
