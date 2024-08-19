@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "custom_liquid_UCx9F7": {
       "type": "custom-liquid",
       "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"not-found\">\n      <h1>SPILLED LINK :/</h1>\n      <h2>This link just spiled...</h2>\n      <h2>let's brew up a fresh one back home</h2>\n      <div class=\"code\">\n        <h3>404</h3>\n        <a  href=\"/\" class=\"btn\">GO BACK HOME</a\n        <img src=\"./assets/spilled-cup.png\" />\n      </div>\n    </div>\n\n    </div>",
+        "custom_liquid": "<div class=\"not-found\">\n      <h1>SPILLED LINK :/</h1>\n      <h2>This link just spiled...</h2>\n      <h2>let's brew up a fresh one back home</h2>\n      <div class=\"code\">\n        <h3>404</h3>\n                <div class=\"spilled-cup\" />\n <a href=\"/\" class=\"btn\">GO BACK HOME</a>\n     </div>\n    </div>\n\n    </div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
