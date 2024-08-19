@@ -4,7 +4,7 @@
       "type": "custom-liquid",
       "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"not-found\">\n      <h1>SPILLED LINK :/</h1>\n      <h2>This link just spiled...</h2>\n      <h2>let's brew up a fresh one back home</h2>\n      <div class=\"code\">\n        <h3>404</h3>\n                <div class=\"spilled-cup\" />\n <a href=\"/\" class=\"btn\">GO BACK HOME</a>\n     </div>\n    </div>\n\n    </div>",
+        "custom_liquid": "<div class=\"not-found\">\n      <h1>SPILLED LINK :/</h1>\n      <h2>This link just spiled...<br/>\n      let's brew up a fresh one back home</h2>\n      <div class=\"code\">\n        <h3>404</h3>\n                <div class=\"spilled-cup\" />\n <a href=\"/\" class=\"btn\">GO BACK HOME</a>\n     </div>\n    </div>\n\n    </div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
