@@ -3513,6 +3513,7 @@ details-disclosure > details {
 .badge--bottom-left {
   background-color: #17386b !important;
   border: 0 !important;
+  color: white;
 }
 .product__description {
   color: #17386b !important;
