@@ -32,7 +32,6 @@
 .mega-menu[open] .mega-menu__content {
   opacity: 1;
   transform: translateY(0);
-
 }
 
 .mega-menu__list {
@@ -89,5 +88,5 @@
 }
 
 .mega-menu__list--condensed .mega-menu__link {
-  font-weight: normal;
+  font-weight: bold;
 }
