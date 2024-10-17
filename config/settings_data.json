@@ -123,21 +123,19 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
+          "announcement_VyWt8F": {
             "type": "announcement",
             "settings": {
-              "text": "FREE SHIPPING WHEN ORDERING 3 BAGS OF COFFEE OR ON ORDERS OVER $100",
+              "text_us": "FREE SHIPPING WHEN ORDERING 3 BAGS OF COFFEE OR ON ORDERS OVER $100",
+              "text_ca": "FREE SHIPPING WHEN ORDERING 3 BAGS OF COFFEE OR ON ORDERS OVER $100",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
             }
           }
         },
-        "block_order": [
-          "announcement-bar-0"
-        ],
-        "settings": {
-        }
+        "block_order": ["announcement_VyWt8F"],
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -178,7 +176,7 @@
             "type": "text",
             "settings": {
               "heading": "JOIN THE ANGRY ROASTER COFFEE COMPANY",
-              "subtext": "<p>If you are not angry, you should subscribe to our f*#@king newsletter. We'll wake you up.<\/p>"
+              "subtext": "<p>If you are not angry, you should subscribe to our f*#@king newsletter. We'll wake you up.</p>"
             }
           }
         },
